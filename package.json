@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "node -e \"require('./scripts/build-wiki')()\""
+  },
+  "dependencies": {
+    "@tiddlygit/tiddlywiki": "^5.1.23-prerelease.20201003-fix-file-info"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "5.1.1",
+    "workbox-cli": "5.1.3"
+  }
+}
